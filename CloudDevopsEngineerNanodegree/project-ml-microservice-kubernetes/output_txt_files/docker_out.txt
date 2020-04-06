@@ -1,0 +1,15 @@
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 194-414-639
+[2020-04-05 13:42:36,176] INFO in app: JSON payload: 
+{json_payload}
+[2020-04-05 13:42:36,179] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-04-05 13:42:36,179] INFO in app: Scaling Payload: 
+{payload}
+[2020-04-05 13:42:36,185] INFO in app: Output prediction: [20.35373177134412]
+172.17.0.1 - - [05/Apr/2020 13:42:36] "POST /predict HTTP/1.1" 200 -
+
